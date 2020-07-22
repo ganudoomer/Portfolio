@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+.sidenav {
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin-left: 5px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.main {
+	margin-left: 40px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 10px;
+	}
+}
+img {
+	margin-left: 60px;
+}
+
+@media screen and (max-width: 606px) {
+	img {
+		height: 25%;
+		width: 20%;
+		margin-left: 0;
+	}
+}
+
+.box-1 {
+	min-height: 100vh;
+	background: url('https://unsplash.com/photos/lHGeqh3XhRY/download?force=true&w=1920');
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-2 {
+	min-height: 100vh;
+	background: url('https://unsplash.com/photos/RCAhiGJsUUE/download?force=true&w=1920');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+.box-3 {
+	min-height: 100vh;
+	background: url(https://unsplash.com/photos/GE5f_k4MPc4/download?force=true&w=1920) center/cover scroll no-repeat;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.text1 {
+	text-align: center;
+}
+span {
+	color: lawngreen;
+	font-size: 1.5rem;
+	font-weight: 900;
+}
