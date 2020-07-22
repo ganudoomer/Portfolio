@@ -76,6 +76,16 @@ img {
 	min-height: 100vh;
 	background: url(https://unsplash.com/photos/GE5f_k4MPc4/download?force=true&w=1920) center/cover scroll no-repeat;
 }
+
+.box-4 {
+	min-height: 100vh;
+	background: url(https://unsplash.com/photos/VWVO0g9A3rg/download?force=true&w=1920);
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+	text-align: center;
+}
+
 * {
 	margin: 0;
 	padding: 0;
