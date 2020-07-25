@@ -8,7 +8,7 @@ body {
 	padding: 0px;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	background: url('https://unsplash.com/photos/oQbLeq4nOek/download?force=true&w=1920');
+	background: url(/assests/images/unsplash.jpg);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
